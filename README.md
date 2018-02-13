@@ -1,13 +1,13 @@
 # CsrfToken
 Csrf Token Generator
 1.Birbaşa Token istifadə üsulu (daha çox GET methodu zamanı lazım ola bilər)
-<a href="/logout?_token=<? =CsrfToken::generateToken('logout')?>"Çıxış </a>
+<a href="/logout?_token=< ? =CsrfToken::generateToken('logout')?>"Çıxış </a>
 
 2.Form Daxilində
 
 < form action="" method="post">
   
-  < ? php CsrfToken::csrfField();  ?>
+   CsrfToken::csrfField(); 
 
 < /form>
 
