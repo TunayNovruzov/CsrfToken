@@ -6,7 +6,7 @@ Csrf Token Generator
 2.Form Daxilində
 
 < form action="" method="post">
-  <?php CsrfToken::csrfField();  ?>
+  < ? php CsrfToken::csrfField();  ?>
 
 < /form>
 
